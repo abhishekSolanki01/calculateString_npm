@@ -33,11 +33,14 @@ console.log(calc.result)
 |--- |--- |--- |--- |
 | 1 | add| n: number | add and update result property |
 | 2 | subtract | n: number | subtract and update result property|
-| 1 | multiply| n: number | multiply and update result property|
-| 2 | divide | n: number | divide and update result property|
-| 1 | clear|  | clear result property |
-| 2 | getResult |  | return result property|
-| 1 | isGreaterPriority| o1: "+" \| "-" \| "*" \| "/" ], o2: [ "+" \| "-" \| "*" \| "/" ] | return true if priority of o1 is greator than o2 |
+| 3 | multiply| n: number | multiply and update result property|
+| 4 | divide | n: number | divide and update result property|
+| 5 | clear|  | clear result property |
+| 6 | getResult |  | return result property|
+| 7 | isGreaterPriority| o1: "+" \| "-" \| "*" \| "/" , \n o2:  "+" \| "-" \| "*" \| "/"  | return true if priority of o1 is greator than o2 |
+| 8 | operate| n1: number, \n operation: "+" \| "-" \| "*" \| "/", \n n2: number | perform provided operation on operandes n1 and n2 |
+| 9 | calculate | str: string | calculate the methamatical operation on string |
+
 
 
 
