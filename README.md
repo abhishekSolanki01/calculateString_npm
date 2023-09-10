@@ -25,6 +25,13 @@ console.log(calc.result)
 
 ```
 
+## Components
+|  | Methods | Usage |
+|--- |--- |--- |
+| 1 | column 2 | column 3 |
+| 2 | row 2 column 2 | row 2 column 3 |
+
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
