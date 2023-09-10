@@ -37,7 +37,7 @@ console.log(calc.result)
 | 2 | divide | n: number | divide and update result property|
 | 1 | clear|  | clear result property |
 | 2 | getResult |  | return result property|
-| 1 | isGreaterPriority| o1: [ "+" | "-" | "*" | "/" ], o2: [ "+" | "-" | "*" | "/" ] | return true if priority of o1 is greator than o2 |
+| 1 | isGreaterPriority| o1: "+" \| "-" \| "*" \| "/" ], o2: [ "+" \| "-" \| "*" \| "/" ] | return true if priority of o1 is greator than o2 |
 
 
 
