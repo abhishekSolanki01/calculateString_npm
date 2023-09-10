@@ -21,15 +21,24 @@ let calc = new Calculator()
 calc.calculate("9 +   2 *    (   6 - (4 + 1) / 2) + 7")
 
 // calculated result can be read from "result" property of class 
+console.log(calc.getResult(result))
+// or
 console.log(calc.result)
+
 
 ```
 
 ## Components
-|  | Methods | Usage |
-|--- |--- |--- |
-| 1 | column 2 | column 3 |
-| 2 | row 2 column 2 | row 2 column 3 |
+|  | Methods | paramaters| Usage |
+|--- |--- |--- |--- |
+| 1 | add| n: number | add and update result property |
+| 2 | subtract | n: number | subtract and update result property|
+| 1 | multiply| n: number | multiply and update result property|
+| 2 | divide | n: number | divide and update result property|
+| 1 | clear|  | clear result property |
+| 2 | getResult |  | return result property|
+| 1 | isGreaterPriority| o1: [ "+" | "-" | "*" | "/" ], o2: [ "+" | "-" | "*" | "/" ] | return true if priority of o1 is greator than o2 |
+
 
 
 ## Contributing
