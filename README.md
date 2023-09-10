@@ -37,8 +37,8 @@ console.log(calc.result)
 | 4 | divide | n: number | divide and update result property|
 | 5 | clear|  | clear result property |
 | 6 | getResult |  | return result property|
-| 7 | isGreaterPriority| o1: "+" \| "-" \| "*" \| "/" , \n o2:  "+" \| "-" \| "*" \| "/"  | return true if priority of o1 is greator than o2 |
-| 8 | operate| n1: number, \n operation: "+" \| "-" \| "*" \| "/", \n n2: number | perform provided operation on operandes n1 and n2 |
+| 7 | isGreaterPriority| o1: "+" \| "-" \| "*" \| "/" , <br> o2:  "+" \| "-" \| "*" \| "/"  | return true if priority of o1 is greator than o2 |
+| 8 | operate| n1: number, <br> operation: "+" \| "-" \| "*" \| "/", <br> n2: number | perform provided operation on operandes n1 and n2 |
 | 9 | calculate | str: string | calculate the methamatical operation on string |
 
 
