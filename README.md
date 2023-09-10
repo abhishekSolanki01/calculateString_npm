@@ -3,7 +3,7 @@ It is a Javascript library for applying complex mathematical operation on string
 
 ## Installation
 
-Use the package manager [pip](https://www.npmjs.com/package/@celestial-cribe/calculate-string) to install.
+Use the package manager [npm](https://www.npmjs.com/package/@celestial-cribe/calculate-string) to install.
 
 ```bash
 npm install @celestial-cribe/calculate-string
